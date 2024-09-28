@@ -1,5 +1,4 @@
 <?php
 
-use CMS\Config;
-
-echo Config::get();
+// use CMS\Config;
+// var_dump(Config::getInstance()->get('app.name'));

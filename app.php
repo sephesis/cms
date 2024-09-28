@@ -2,4 +2,4 @@
 
 use CMS\Config;
 
-echo Config::get();
+dd(Config::getInstance()->get('constants'));

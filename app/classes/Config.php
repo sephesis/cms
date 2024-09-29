@@ -11,6 +11,9 @@ class Config
         $this->config = require __DIR__ . '/../config.php';
     }
 
+    /**
+     * @return Config
+     */
     public static function getInstance()
     {
         return new self();
